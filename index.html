@@ -16,37 +16,34 @@
 
       <form id="signupForm" class="signup-form" novalidate>
 
-        <!-- Full Name -->
+       
         <div class="input-field">
           <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
           <span class="error-msg" id="fullNameError"></span>
         </div>
 
-        <!-- Email -->
+      
         <div class="input-field">
           <input type="email" id="email" name="email" placeholder="Email" required>
           <span class="error-msg" id="emailError"></span>
         </div>
 
-        <!-- Password -->
+      
         <div class="input-field">
           <input type="password" id="password" name="password" placeholder="Password" required>
           <span class="error-msg" id="passwordError"></span>
         </div>
 
-        <!-- Confirm Password -->
         <div class="input-field">
           <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
           <span class="error-msg" id="confirmPasswordError"></span>
         </div>
 
-        <!-- Date of Birth -->
         <div class="input-field">
           <input type="text" id="dob" name="dob" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" required>
           <span class="error-msg" id="dobError"></span>
         </div>
 
-        <!-- Radio Options -->
         <div class="radio-group">
           <label class="radio-label">
             <input type="radio" name="role" value="Student" required>
@@ -62,7 +59,6 @@
         </div>
         <span class="error-msg" id="roleError"></span>
 
-        <!-- Checkbox Option -->
         <div class="checkbox-group">
           <label class="checkbox-label">
             <input type="checkbox" id="terms" name="terms" required>
@@ -72,10 +68,8 @@
           <span class="error-msg" id="termsError"></span>
         </div>
 
-        <!-- Feedback Alert Banner -->
         <div id="feedbackBanner" class="feedback-banner"></div>
 
-        <!-- Submit Button -->
         <div class="btn-container">
           <button type="submit" class="submit-btn">Signup</button>
         </div>
